@@ -1,8 +1,8 @@
 .container{
     background-color: rgba(50, 59, 57, 0.826);
     width: 99%;
-    height: 900px;
-    /*padding-bottom: 50px;*/
+    height: 300px;
+    padding-bottom: 50px;
     border-radius: 18px;
     display: flex;
     justify-content: center;
