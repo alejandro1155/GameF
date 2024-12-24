@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#primerpantalla{
+    margin-left: -45px;
+    border-radius: 1px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 7, 25, 0.656);
+    
+    width: 100%;
+  
+}
+
+p{
+   color: #fff;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input{
+    border: none;
+    position: relative;
+   left: 30px;
+   top: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: rgb(9, 142, 26);
+}
+.controles{
+    margin-top: 60px;
+    width: 30px;
+}
+#controlrebelde{
+    width: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: -122px;
+
+}
+#text{
+    color: red;
+}
+.ingreseletra{
+    width: 60px;
+    font-size: 7px;
+    margin-left: -103px;
+    background-color: #1e0202b7;
+}
+.flechita{
+    font-size: 12px;
+}
+button{
+    position: relative;
+    left: 150px;
+    bottom: 10px;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    
+    background-color: #fff;
+ 
+}
+
+
+#resultadoNegativo{
+    background-color: #fff;
+    position: relative;
+   top:15px;
+   width: 97%;
+  margin-left: -55px;
+  text-align: center;
+  color: rgb(184, 43, 43);
+  height: 30px;
+  font-size: 15px;
+  text-transform: none;
+  border-radius: 2px;
+ 
+
+
+}
+
+#btncp{
+    margin-left: -320px;
+    color: rgb(2, 61, 123);
+    padding: 0 5px 0 5px;
+}
+
+#reiniciar{
+    margin-left: -110px;
+    margin-top: -19px;
+    color: rgb(81, 37, 128);
+    width: 100px;
+}
+#parrafoFelicidades{
+   color: rgb(2, 13, 2);
+    width: 150px;
+    height: 60px;
+    margin-top: -55px;
+    text-align: start;
+}
