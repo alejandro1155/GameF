@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Palabras</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <div class="contenedor">
+        <p>Estoy pensando en una palabra 🤔 <br> ¿Puedes adivinar cuál es?</p>
+        
+        <input type="text" name="primerpantalla" id="primerpantalla" disabled>
+  
+        <input type="text" name="text" id="resultadoNegativo" disabled placeholder="Letras incorrectas">
+  
+       
+        <div class="controles"> 
+
+            <p class="ingreseletra">Ingrese una letra <br> <span class="flechita">↓</span></p>
+            <p id="parrafoFelicidades"></p>
+            <input type="text" id="controlrebelde" maxlength="1" >
+            </div>
+            <button type="button" id="btncp"><b>Comprobar</b></button>
+            <button type="button" id="reiniciar"><b>Jugar</b></button>
+
+    </div>
+    
+    <script src="javascript2.js"></script>
+</body>
+</html>
