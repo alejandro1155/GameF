@@ -147,6 +147,7 @@ button{
    
     .contenedor{
         justify-content: start;
+        height: 700px;
     }
     .pantallas{
         margin-top:0;
