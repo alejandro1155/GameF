@@ -64,7 +64,7 @@ console.log(letraElegida);
      else if(primerpantalla.value.indexOf(letraElegida) !== -1 && letras.includes("_")){
         ventana.style.display ='block'
         
-        parrafoVentana.innerHTML = `Ha vuelto a salir la letra "${letraElegida}"<br> Se le suma 1 chance`;
+        parrafoVentana.innerHTML = `Repitió letra "${letraElegida}"<br> Suma 1 chance`;
         ventana.style.backgroundColor =' green'
     
         cantidad++;
