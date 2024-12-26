@@ -1,0 +1,202 @@
+*{padding: 0;
+margin: 0;}
+
+
+.contenedor{
+    background: rgb(143,3,237);
+    background: linear-gradient(210deg, rgba(143,3,237,1) 0%, rgba(221,206,223,0.3168103448275862) 30%, rgba(255,255,255,1) 43%, rgba(238,238,193,1) 66%, rgba(57,42,22,1) 100%);
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.pantallas{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.781) 0%, rgba(229,226,237,1) 29%, rgba(142, 76, 95, 0.476) 55%, rgba(252,70,107,1) 100%);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    box-shadow: 0 0 40px 20px white,
+    0 0 80px 10px cyan;
+   border: 2px solid black;
+   margin-bottom: 2%;
+   
+}
+.pantallas p{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+#primerpantalla{
+    color: green;
+}
+#resultadoNegativo{
+    color: red;
+}
+input{
+    text-align: center;
+    height: 70%;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.485);
+    
+}
+.ventana-padre{
+    width: 100%;
+    height:10%;
+  
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px ;
+}
+.ventana{
+    background-color: green;
+    width: 45%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    height: 9%;
+
+}
+.ventana p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+   
+}
+.controles{
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.controles p{
+    font-size: 30px;
+}
+.botonesFinal{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+button{
+    width: 25%;
+    border-radius: 7px;
+}
+
+
+#btncp{
+    font-size: 20px;
+}
+.ultimoBoton{
+   height: 5%;
+   width: 15%;
+
+    
+}
+.tutorial{
+    position: absolute;
+    background-color: rgb(89, 88, 88);
+    width: 60%;
+    height: 80%;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 2%;
+   
+
+}
+
+.botonClose{
+    width: 20%;
+    height: 6%;
+    
+}
+.botonClose:hover{
+    background-color: black;
+    color: #fff;
+}
+.tutorial p{
+    color: #fff;
+    width: 80%;
+    height: 80%;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 720px){
+   
+    .contenedor{
+        justify-content: start;
+    }
+    .pantallas{
+        margin-top:0;
+        width: 88%
+        
+       
+    }
+    .pantallas p{
+        font-size: 22px;
+       
+    }
+    input{
+        font-size: 16px;
+    }
+    #primerpantalla{
+        font-size: 20px;
+    }
+    .controles{
+       top: 80px;
+    }
+    button{
+       width: 90%;
+       height: 100%;
+
+       margin: 2%;
+     
+    }
+    .ventana{
+        padding: 2%;
+    }
+    .ventana p{
+        font-size: 22px;
+    }
+  
+    .ultimoBoton{
+        width: 40%;
+        margin-bottom: 2%;
+       
+    
+
+    }
+    .tutorial{
+        
+        height: 60%;
+      
+    }
+    .tutorial p{
+        width: 100%;
+        height: 60%;
+        text-align: center;
+        
+     
+    }
+}
+
