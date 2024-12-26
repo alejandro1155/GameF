@@ -13,7 +13,7 @@ for(let boton of botones){
     boton.addEventListener("click",()=>{
          let numero = generarNumero();
         if(numero == boton.value){
-            transform.innerHTML = `¡Haz Ganado! El numero es <br><b style = 'margin-left:70%'><span style='font-size:45px'; 'background-color:red;'>${numero}</span></b>`;
+            transform.innerHTML = `¡Acertaste! El numero es <br><b style = 'margin-left:70%'><span style='font-size:45px'; 'background-color:red;'>${numero}</span></b>`;
             transform.style.color= 'green';
             transform.style.transition= 'color 0.8s ease-in-out';
            if(pantalla.value.length < 80 && stats.length <= 20){
