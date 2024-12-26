@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Palabras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <div class="contenedor">
+        <div class="pantallas">
+            <div class="contenedor-1">
+                <div class="papelito"></div>
+                <div class="papelito"></div>
+                <div class="papelito"></div>
+                <div class="papelito"></div>
+                <div class="papelito"></div>
+                <div class="papelito"></div>
+                
+            </div>
+        <p>¿Podremos adivinar la palabra?<br> Solo oprime "🎯" y lo veremos </p>
+        <input type="text" name="primerpantalla" id="primerpantalla" disabled>
+        <input type="text" name="text" id="resultadoNegativo" disabled placeholder="Letras incorrectas">
+       
+        </div>
+       
+        
+        <button type="button" class="ultimoBoton">¿Como Jugar?</button> 
+
+             <div class="ventana-padre">
+       <div class="ventana">
+                  <p id="parrafoVentana"></p>
+                </div>
+            </div>
+
+
+         <div class="controles">
+              <p class="intentos"> Intentos <span id="conteo">35</span>/35<br></p>
+              <div class="botonesFinal">
+              <button type="button" id="btncp"><b>🎯</b></button>
+              <button type="button" id="reiniciar"><b>ReLoad</b></button>
+              </div>
+              </div>
+       
+
+             <div class="tutorial">
+                <p>El juego es algo facil y automatizado <br><br>
+                Principalmente existen varias palabras,
+                estas palabras son elegidas al azar. <br>
+                Tambien se eligen letras al azar  
+                cada vez que se pulsa el boton 🎯.<br>
+                Estas letras son analizadas para
+                ver si tiene alguna similitud con 
+                las letras de la palabra a completar
+                 en nuestro juego.<br><br>
+                 La palabra se muestra al finalizar el juego
+                 independientemente ganes o pierdas.<br>
+                 Se le sumara 1 intento cada vez que 
+                 salga una letra repetida.  <br><br>
+                 En sintesis es un juego donde la maquina
+                 intenta completar la palabra y tu le das impulso
+                 o la fuerza que necesita para hacerlo.<br><br><br>
+                 ¿Podran decifrar la palabra?
+                
+            
+            </p>
+               <button type="button" class="botonClose">close</button> </div>
+     </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
