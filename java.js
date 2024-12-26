@@ -54,7 +54,7 @@ console.log(letraElegida);
         if(primerpantalla.value.indexOf(letraElegida) == -1){
      ventana.style.display = 'block';
       ventana.style.borderRadius ='14px';
-     parrafoVentana.innerHTML = `Hemos encontrado la letra <b>"${letraElegida}"</b>`; 
+     parrafoVentana.innerHTML = `Encontrada la letra <b>"${letraElegida}"</b>`; 
      ventana.style.backgroundColor = 'green'
    
      
