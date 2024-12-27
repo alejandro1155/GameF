@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgba(172, 125, 125, 0.713);
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.botones{
+    margin-top: 1%;
+    background-color: rgb(230, 153, 153);
+    width: 90%;
+    height: 50%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 8px;
+   box-shadow: 0 0 4px 2px white;
+}
+.orden-boton{
+    width: 80%;
+    height: 30%;
+    margin: 3px;
+   display: flex;
+   align-items:center;
+   justify-content: space-around;
+   
+}
+
+button{
+    width: 30%;
+    margin: 1%;
+    height: 60%;
+    border-radius: 6px;
+    background-color: rgb(146, 20, 169);
+    box-shadow: 0 0 4px 1px black;
+    font-size: 32px;
+    color: #fff;
+   
+}
+.mensaje{
+    position: absolute;
+    top: 150px;
+    background-color: rgb(21, 5, 99);
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+#boton-play{
+    height: 10%;
+    margin-top: 13%;
+    width: 20%;
+    border-color: #fff;
+}
+h1{
+    color: white;
+}
+
+
+@keyframes trans {
+     0%{ transform: translateX(2px); font-size: 100%;}
+     50%{transform: translateY(2px);}
+       
+    }
+
+button:hover{
+      animation: trans 1s infinite;
+}
+button:active{
+    animation: trans 1s infinite;
+}
+
+
+@media (max-width: 720px){
+    .container{
+        height: 720px;
+    }
+    .botones{
+        width: 95%;
+        border-radius: 6px;
+    }
+    .orden-boton{
+    width: 100%;}
+    .mensaje{
+        width: 75%;
+    }
+    
+  #boton-play{
+    width: 40%;
+}
+h1{
+    font-size: 120%;
+}
+}
